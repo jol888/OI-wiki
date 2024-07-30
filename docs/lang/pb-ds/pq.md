@@ -46,7 +46,7 @@ __gnu_pbds ::priority_queue<T, Compare, Tag, Allocator>
 -   `pop()`: 将堆顶元素弹出。
 -   `top()`: 返回堆顶元素。
 -   `size()` 返回元素个数。
--   `empty()` 返回是否非空。
+-   `empty()` 返回是否为空。
 -   `modify(point_iterator, const key)`: 把迭代器位置的 `key` 修改为传入的 `key`，并对底层储存结构进行排序。
 -   `erase(point_iterator)`: 把迭代器位置的键值从堆中擦除。
 -   `join(__gnu_pbds :: priority_queue &other)`: 把 `other` 合并到 `*this` 并把 `other` 清空。
